@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class TaskComponent {
 
+  public nombre:string='';
+  public estado:boolean=false;
+  public fecha:Date=new Date();
+
+  
 }
